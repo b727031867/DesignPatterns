@@ -9,6 +9,10 @@ import lombok.extern.slf4j.Slf4j;
  */
 @Slf4j
 public class LightCommandReceiver {
+    public String getStatus() {
+        return status;
+    }
+
     private String status = "off";
 
     public void on() {
