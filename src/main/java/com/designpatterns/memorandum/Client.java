@@ -27,6 +27,7 @@ public class Client {
         origin2.modify("78", 36);
         log.info("二执行修改操作1，结果为：{}", origin2.toString());
         //执行保存
+
         caretaker.saveOperate(origin2, origin2.storeMemento());
         //执行修改
         origin2.modify("444", 78);
